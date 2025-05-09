@@ -1,0 +1,124 @@
+.calendar-container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Header */
+  .calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-header h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+  }
+  
+  .calendar-header button {
+    background-color: #f0f0f0;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s;
+  }
+  
+  .calendar-header button:hover {
+    background-color: #e2e8f0;
+  }
+  
+  /* Day Name Headers */
+  .calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 8px;
+  }
+  
+  .day-name {
+    text-align: center;
+    font-weight: bold;
+    color: #444;
+    padding: 8px 0;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 0.9em;
+  }
+  
+  /* Individual Day Boxes */
+  .day {
+    min-height: 100px;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #f9fafb;
+    box-shadow: 0 0 0 1px #e5e7eb;
+    position: relative;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s ease;
+  }
+  
+  .day:hover {
+    background-color: #f3f4f6;
+  }
+  
+  .day > div:first-child {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #1f2937;
+  }
+  
+  /* Highlight Today */
+  .today {
+    background-color: #3b82f6 !important;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 0 2px #2563eb;
+  }
+  
+  /* Empty boxes */
+  .empty {
+    background-color: transparent;
+    box-shadow: none;
+    cursor: default;
+  }
+  
+  /* Event Box */
+  .event {
+    margin-top: 6px;
+    padding: 4px 6px;
+    border-radius: 6px;
+    font-size: 0.75em;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
+  /* Event Types Colors */
+  .event.meeting {
+    background-color: #dbeafe; /* Light Blue */
+    color: #1e3a8a;
+  }
+  
+  .event.call {
+    background-color: #fef9c3; /* Yellow */
+    color: #92400e;
+  }
+  
+  .event.deadline {
+    background-color: #fee2e2; /* Light Red */
+    color: #991b1b;
+  }
+  
+  .event.marketing {
+    background-color: #d1fae5; /* Light Green */
+    color: #065f46;
+  }
+  
