@@ -1,21 +1,93 @@
 [
-    {
-      "title": "Team Meeting",
-      "date": "2025-05-10",
-      "time": "10:00",
-      "duration": "1h"
-    },
-    {
-      "title": "Client Call",
-      "date": "2025-05-10",
-      "time": "11:00",
-      "duration": "30m"
-    },
-    {
-      "title": "Project Deadline",
-      "date": "2025-05-15",
-      "time": "09:00",
-      "duration": "All Day"
-    }
-  ]
-  
+  {
+    "title": "Team Meeting",
+    "date": "2025-05-10",
+    "time": "10:00 AM",
+    "duration": "1h",
+    "type": "meeting"
+  },
+  {
+    "title": "Client Call",
+    "date": "2025-05-10",
+    "time": "10:00 AM",
+    "duration": "30m",
+    "type": "call"
+  },
+  {
+    "title": "Project Deadline",
+    "date": "2025-05-15",
+    "time": "09:00 AM",
+    "duration": "All Day",
+    "type": "deadline"
+  },
+  {
+    "title": "Marketing Review",
+    "date": "2025-05-15",
+    "time": "03:00 PM",
+    "duration": "1h",
+    "type": "marketing"
+  },
+  {
+    "title": "UX Design Workshop",
+    "date": "2025-06-05",
+    "time": "11:00 AM",
+    "duration": "2h",
+    "type": "meeting"
+  },
+  {
+    "title": "Sales Call with Client A",
+    "date": "2025-06-05",
+    "time": "11:00 AM",
+    "duration": "45m",
+    "type": "call"
+  },
+  {
+    "title": "Finance Meeting",
+    "date": "2025-06-18",
+    "time": "02:00 PM",
+    "duration": "1h",
+    "type": "meeting"
+  },
+  {
+    "title": "Campaign Launch",
+    "date": "2025-07-01",
+    "time": "10:30 AM",
+    "duration": "All Day",
+    "type": "marketing"
+  },
+  {
+    "title": "Code Review",
+    "date": "2025-07-01",
+    "time": "02:00 PM",
+    "duration": "1h",
+    "type": "meeting"
+  },
+  {
+    "title": "Quarterly Planning",
+    "date": "2025-07-15",
+    "time": "09:00 AM",
+    "duration": "2h",
+    "type": "meeting"
+  },
+  {
+    "title": "Internal Audit",
+    "date": "2025-08-10",
+    "time": "10:00 AM",
+    "duration": "3h",
+    "type": "deadline"
+  },
+  {
+    "title": "Partner Call",
+    "date": "2025-08-10",
+    "time": "10:00 AM",
+    "duration": "30m",
+    "type": "call"
+  },
+  {
+    "title": "Team Lunch",
+    "date": "2025-08-25",
+    "time": "01:00 PM",
+    "duration": "2h",
+    "type": "meeting"
+  }
+]
