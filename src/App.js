@@ -4,7 +4,7 @@ import Calendar from "./Calendar";
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: "center" }}>My Calendar App</h1>
+      <h1 style={{ textAlign: "center" }}>My Calendar</h1>
       <Calendar />
     </div>
   );
